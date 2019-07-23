@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleView">
+        <attr name="ball" format="reference" />
+        <attr name="image_add" format="reference" />
+        <attr name="image_subtract" format="reference" />
+        <attr name="bg" format="reference" />
+        <attr name="max" format="integer" />
+        <attr name="ball_position" format="integer" />
+        <attr name="image_width" format="dimension" />
+        <attr name="orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

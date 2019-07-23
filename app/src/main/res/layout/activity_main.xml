@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.sanerly.scale.view.ScaleView
+        android:id="@+id/scale_view"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:ball="@mipmap/ic_trim_ball"
+        app:bg="@mipmap/ic_trim_bg"
+        app:image_add="@mipmap/ic_trim_add"
+        app:image_subtract="@mipmap/ic_trim_sub"
+        app:image_width="30dp"
+        app:max="16"
+        app:orientation="horizontal" />
+
+
+    <com.sanerly.scale.view.ScaleView
+        android:id="@+id/scale_view2"
+        android:layout_width="40dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        app:ball="@mipmap/ic_trim_ball"
+        app:bg="@mipmap/ic_trim_bg2"
+        app:image_add="@mipmap/ic_trim_add2"
+        app:image_subtract="@mipmap/ic_trim_sub2"
+        app:image_width="30dp"
+        app:max="16"
+        app:orientation="vertical" />
+</LinearLayout>
